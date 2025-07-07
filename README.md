@@ -1,5 +1,8 @@
 # Sentiment Analysis API
 
+![image](https://github.com/user-attachments/assets/e6b965b3-7bbd-4509-86fa-6f55745d90bb)
+
+
 ## Overview
 This project builds a sentiment classifier on Amazon product reviews and serves it as a FastAPI Rest API.
 
