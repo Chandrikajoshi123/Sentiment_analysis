@@ -22,3 +22,21 @@ This project builds a sentiment classifier on Amazon product reviews and serves 
 ## Example request
 ```bash
 curl -x Post http://localhost:8000/predict/ -H "Content-Type: application/json" -d '{"text": This product is amazing!}'
+```
+## Results
+- Macro ROC-AUC: 0.86
+- Model: TF-IDF + Logistic Regression (class_weight=balanced)
+- confusion matrix:
+
+![image](https://github.com/user-attachments/assets/e12b3bd4-7039-450a-88a4-e59153033821)
+
+## Challenges
+- Dataset highly imbalanced ( Positive reviews dominated)
+- Addressed via class weights
+
+## Future Improvements
+- Apply oversampling(SMOTE)
+- Tray transformer model (DistilBERT/BERT)
+
+
+  
