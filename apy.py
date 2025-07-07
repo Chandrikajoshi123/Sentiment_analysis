@@ -129,7 +129,7 @@ if st.button("✨ Analyze Emotion"):
 
 
             # 📝 Prompt
-            st.markdown(f"#### 📓 Journaling Prompt: {prompt}")
+            st.markdown(f"<div style='color:#222; font-size:20px;'><b>📓 Journaling Prompt: {prompt}:</b> <i>{quote}</i></div>", unsafe_allow_html=True)
 
             # 📊 Confidence Scores
             with st.expander("📈 See Emotion Confidence"):
