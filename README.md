@@ -1,6 +1,5 @@
 # Sentiment Analysis API
 
-![image](https://github.com/user-attachments/assets/e6b965b3-7bbd-4509-86fa-6f55745d90bb)
 
 
 ## Overview
