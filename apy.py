@@ -128,7 +128,7 @@ custom_css = """
 .subtext {
     text-align: center;
     font-size: 20px;
-    color: #333333;
+    color: #555;
     margin-top: 0px;
     margin-bottom: 40px;
 }
